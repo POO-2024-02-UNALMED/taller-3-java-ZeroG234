@@ -8,7 +8,7 @@ public class TV{
     private Integer volumen = 1;
     private Integer precio  = 500;
 
-    private static Integer numTV;
+    private static Integer numTV = 0;
 
     public TV(Marca marca, Boolean estado){
         this.marca = marca;
